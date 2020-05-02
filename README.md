@@ -14,6 +14,13 @@
 > 1.添加/删除插件
 
 ```
+//meteor 安装 
+或者直接编辑.meteor/cordova-plugins 文件
+cordova-android-support-gradle-release@3.0.1
+gizscanqrcode@https://github.com/hanovo/cordova-gizwits-scan-qrcode.git#4eed245630f9e504f2554b82a0dfc5f28f39d7f2
+
+//先装依赖插件
+cordova plugin add cordova-android-support-gradle-release@3.0.1
 // 添加 gizscanqrcode 插件
 cordova plugin add gizscanqrcode
 // 添加 gizscanqrcode 插件(指定版本)
